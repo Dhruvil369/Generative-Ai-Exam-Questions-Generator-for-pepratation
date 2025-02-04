@@ -1,0 +1,13 @@
+prefix=D:/GENERATIVE AI PROJECTS FOR GITHUB/TEST AI/env/Library
+exec_prefix=D:/GENERATIVE AI PROJECTS FOR GITHUB/TEST AI/env/Library
+libdir=D:/GENERATIVE AI PROJECTS FOR GITHUB/TEST AI/env/Library/lib
+sharedlibdir=D:/GENERATIVE AI PROJECTS FOR GITHUB/TEST AI/env/Library/lib
+includedir=D:/GENERATIVE AI PROJECTS FOR GITHUB/TEST AI/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
